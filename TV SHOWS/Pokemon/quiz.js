@@ -1,50 +1,68 @@
 // Creating questionss and answers
 //*****************************************************************************
 var question1 = {
-                  question: "What is the vegetable that Shinchan hates to eat?",
-                  answers: ["Capsicum", "Carrot", "Beans" ,"Garlic"],
-                  correct: 0
+                  question: "Who stole Misty's bike?",
+                  answers: ["Gary", "Ash", "James" ,"Brock"],
+                  correct: 1
                 };
 
 var question2 = {
-                  question: "What is the color of the dress Shinchan's sister Himawari wears?",
-                  answers: ["Pink", "Yellow", "Purple" ,"Blue"],
+                  question: "Rock tunnel and power plant are closest to which of the following?",
+                  answers: ["Celadon City", "Cerulean City", "Cinnabar Island" ,"Lumious City"],
                   correct: 1
                 };
 
 var question3 = {
-                  question: "What do Shinchan and his dad Hiroshi often watch in an episode which makes his mom's dad angry?",
-                  answers: ['News', 'Adult shows', 'Game shows', 'Horror movies'],
-                  correct: 1
-                }
+                  question: "Which Pokémon can use its black ink to draw pictures or issue warnings?",
+                  answers: ['Mew', ,'Bellsprout' ,'Horsea','Starmie'],
+                  correct: 2
+                };
 
 var question4 = {
-                  question: "Whom does Shinchan's teacher Yoshinaga marry?",
-                  answers: ["Ishida Junichi", "Shiro", "Suzuki", "Kazama"],
-                  correct: 0
+                  question: "Which Pokémon seems to always have a headache?",
+                  answers: ["Kangaskhan", "Zapdos", "Psyduck", "Golduck"],
+                  correct: 2
                 };
 
 var question5 = {
-                  question: "What is the name of Shinchan's favourite action hero?",
-                  answers: ["Captain Shinchan", "James Bond","Action Kamen" ,"Sailor Moon"],
+                  question: "What is Professor Oak's Japanese name?",
+                  answers: ["Oakito", "Okita","Okido" ,"Arigato"],
                   correct: 2
                 };
 
 var question6 = {
-                  question: "What is the name of Shinchan's only female friend?",
-                  answers: ["Priya", "Shizuka", "Maya","Nene"],
+                  question: "Why do Team Rocket want Pikachu?",
+                  answers: ["To perform experiments", "To sell for Money", "To give to their Boss","A lot of Reasons"],
                   correct: 3
                 };
 
 var question7 = {
-                  question: "What is the name of Shinchan's mom?",
-                  answers: ["Marry", "Misty", "Misae", "Mitsye"],
+                  question: "Who was Charmander's original owner?",
+                  answers: ["Damian", "Gary", "Ash", "James"],
+                  correct: 0
+                };
+                
+var question8 = {
+                  question: "Who is Ash's Father?",
+                  answers: ["Prof. Oak", "Pikachu", "Delia Ketchum", "UnKnown"],
+                  correct: 3
+                };
+                
+var question9 = {
+                  question: "Who won the Princess Festival Contest?",
+                  answers: ["Jessie", "Ash", "Misty", "May"],
                   correct: 2
                 };
+                
+var question10 = {
+                  question: "What was the mysterious Pokémon Giovanni used to defeat Gary?",
+                  answers: ["Pikachu", "Mew", "Mewtoo", "Charizard"],
+                  correct: 2
+                };                
 
 // create an array of objects
 
-var questions = [question1, question2, question3, question4, question5, question6, question7];
+var questions = [question1, question2, question3, question4, question5, question6, question7, question8, question9, question10];
 
 // Initialize variables
 //------------------------------------------------------------------
