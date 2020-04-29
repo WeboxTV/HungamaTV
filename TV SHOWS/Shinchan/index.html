@@ -8,14 +8,23 @@
 <link rel="apple-touch-icon" href="https://hungamatv.ga/logo/HungamaTV.png">
 <meta name="description" content="Discover all you need to know about Shinchan movies, live shows, holidays, parks and the latest products from Shinchan.">
 <link rel="stylesheet" type="text/css" href="https://hungamatv.ga/css/RightsReservedStyle.css">
-<style>
-.responsive {
-  width: 100%;
-  height: 10%;
-}
-</style>
 
-<img src="https://wallpapercave.com/wp/wp1812465.jpg" alt="Shinchan on Hungama TV" class="responsive" width="0" height="0">  
+ <style>
+        img.smallscreen { display: none; }
+        @media only screen and (max-width: 320px) {
+            img { 
+                display: none; 
+            }
+            img.smallscreen { 
+                display: inline; 
+            }
+        }
+        </style>
+ </head>
+ <body>
+  <img src="https://wallpapercave.com/wp/wp1812465.jpg">
+        <img class="smallscreen" src="https://wallpapercave.com/wp/wp1812465.jpg>
+  
   
   <!--Footer-->
 
