@@ -14,7 +14,7 @@ var question2 = {
 
 var question3 = {
                   question: "Which Pokémon can use its black ink to draw pictures or issue warnings?",
-                  answers: ['Mew', ,'Bellsprout' ,'Horsea','Starmie'],
+                  answers: ['Mew', 'Bellsprout' ,'Horsea','Starmie'],
                   correct: 2
                 };
 
