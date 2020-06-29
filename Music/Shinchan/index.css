@@ -6,6 +6,12 @@
 
 /* Global Styles
 ================================================== */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 html,body {
 -webkit-font-smoothing:antialiased;
