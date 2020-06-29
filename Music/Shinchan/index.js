@@ -1,4 +1,4 @@
-// Mythium Archive: https://archive.org/details/mythium/
+// Mythium Archive: https://archive.org/details/shin-chan-ending-song-hindi-end-song-credits-in-hindi-hd/
 
 jQuery(function ($) {
     'use strict'
@@ -20,7 +20,7 @@ jQuery(function ($) {
         // initialize playlist and controls
         var index = 0,
             playing = false,
-            mediaPath = 'https://archive.org/details/shin-chan-ending-song-hindi-end-song-credits-in-hindi-hd',
+            mediaPath = 'https://archive.org/download/shin-chan-ending-song-hindi-end-song-credits-in-hindi-hd/',
             extension = '',
             tracks = [{
                 "track": 1,
@@ -31,17 +31,17 @@ jQuery(function ($) {
                 "track": 2,
                 "name": "Shin Chan Ending Song",
                 "duration": "1:20",
-                "file": "http://hungamatv.ga/Music/Shinchan/Album/Shin%20Chan%20Ending%20Song%20Hindi%20End%20Song%20(Credits)%20in%20Hindi%20HD.mp3"
+                "file": "Shin Chan Ending Song Hindi End Song (Credits) in Hindi HD"
             }, {
                 "track": 3,
-                "name": "All The King's Men - Broadwing Studio (Final Mix)",
-                "duration": "5:01",
-                "file": "BS_ATKM"
+                "name": "SHINCHAN THE GOLDEN SWORD MATA'S SONG",
+                "duration": "01:33",
+                "file": "SHINCHAN THE GOLDEN SWORD MATA''S SONG"
             }, {
                 "track": 4,
-                "name": "The Forsaken - Broadwing Studio (First Mix)",
-                "duration": "8:31",
-                "file": "BSFM_TF"
+                "name": "Shinchan Movie Adventure in Henderland Ending Song",
+                "duration": "02:54",
+                "file": "Shinchan Movie Adventure in Henderland Ending Song Hindi"
             
             }],
             buildPlaylist = $.each(tracks, function(key, value) {
